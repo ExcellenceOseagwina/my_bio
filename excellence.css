@@ -1,0 +1,252 @@
+body {
+     margin: 0;
+     font-family: monospace;
+}
+
+header {
+     background-color: rgb(118, 103, 103);
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding: 20px;
+     position: fixed;
+     top: 0;
+}
+
+h1 {
+     margin-left: 25px;
+}
+
+h1:hover {
+     border-bottom: 2px solid white;
+     transition: 0.4s;
+}
+
+ul {
+     display: flex;
+}
+
+li {
+     margin: 15px;
+     list-style: none;
+}
+
+[class^="href"] {
+     text-decoration: none;
+     color: white;
+     font-size: x-large;
+     font-weight: bold; 
+}
+
+nav {
+     margin-right: 45px;
+}
+
+a:hover {
+    border-bottom: 2px solid white;
+    transition: 0.2s;
+}
+
+[class*="first-div"] {
+     border: 2px solid black;
+     width: 300px;
+     margin-right: auto;
+     margin-left: auto;
+     margin-top: 200px;
+     border-radius: 20px;
+     padding: 30px 30px 30px 30px;
+}
+
+[class^="user-img"] {
+     position: relative;
+     width: 300px;
+     border-radius: 20px;
+}
+
+[class$="text"] {
+     width: 200px;
+     margin: auto;
+}
+
+h6 {
+     text-decoration: underline;
+     font-size: large;
+}
+
+[class$="text-p"] {
+     margin-left: 30px;
+}
+
+[class*="div-2"] {
+   margin-bottom: 100px;
+}
+
+[class*="text-p"]::before {
+     content: "👨‍💻";
+}
+
+[class^="div-2-p"] {
+     width: 700px;
+     margin-right: auto;
+     margin-left: auto;
+}
+
+h2 {
+     text-align: center;
+     font-size: 40px;
+}
+
+
+h3 {
+     text-align: center;
+     font-size: 40px;
+     font-weight: bold;
+     margin-top: 69px;
+}
+
+table, td {
+     border: 1px solid lightgray;
+     border-collapse: collapse;
+}
+
+table {
+     width: 680px;
+     margin: 18px auto 20px auto;
+}
+
+summary {
+     text-align: center;
+     margin-top: 52px;
+     margin-bottom: 0px;
+}
+
+td {
+     padding: 15px;
+}
+
+th {
+     padding: 10px;
+     border-left: 1px solid lightgray;
+}
+
+[class*="highlighted-row"] {
+     background-color: rgb(237, 237, 237);
+}
+
+[class^="row"]:hover {
+     background-color: rgb(213, 208, 208);
+}
+
+footer {
+     background-color: grey;
+     width: 100%;
+     padding: 20px;
+     text-align: center;
+     font-weight: bold;
+     position: fixed;
+     bottom: 0;
+}
+
+[class^="form-div"] {
+     margin: 40px;
+}
+
+form {
+     border: 1px solid lightgrey;
+     width: 220px;
+     padding: 30px;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 11px;
+}
+
+fieldset {
+     border: none;
+}
+
+legend {
+     border-bottom: 1px solid lightgray;
+     margin-bottom: 20px;
+     font-weight: bolder;
+
+}
+
+input {
+     width: 200px;
+     height: 20px;
+     outline: 1px solid rgb(188, 187, 187);
+     border: none;
+     margin-bottom: 20px;
+     margin-top: 5px;
+     padding: 4px;
+}
+
+textarea {
+     border: none;
+     outline: 1px solid rgb(188, 187, 187);
+     margin-top: 5px;
+     margin-bottom: 12px;
+     resize: none;
+     line-height: 30px;
+}
+
+button {
+     background-color: lightgreen;
+     border: none;
+     width: 70px;
+     height: 30px;
+     color: white;
+     box-shadow: 2px 2px 2px rgb(177, 177, 177);
+}
+
+button:hover {
+     background-color: rgb(111, 218, 111);
+     cursor: pointer;
+     transition: 0.9s;
+}
+
+h4 {
+     text-align: center;
+     font-size: 40px;
+}
+
+h5 {
+     text-align: center;
+     font-size: 40px;
+}
+
+.link {
+     width: 20px;
+     margin-left: 10px;
+     border-radius: 10px;
+}
+
+.links {
+     width: 30px;
+}
+
+.link-links {
+     display: flex ;
+     flex-direction: column ;
+}
+
+.div5-link-one {
+     margin-left: 4px;
+     color: black;
+}
+
+.div5-link {
+     text-decoration: none;
+     color: black;
+}
+
+hr {
+     margin: 100px 0;
+}
+
+@media  screen and (max-width: 750px) {
+     body {
+          background-color: red;
+     }
+}
